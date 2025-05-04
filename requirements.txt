@@ -1,0 +1,6 @@
+echo "Django>=4.2
+pandas
+openpyxl
+Pillow
+fpdf2
+pyinstaller" > requirements.txt
