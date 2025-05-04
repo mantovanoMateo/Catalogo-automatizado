@@ -26,7 +26,7 @@ jobs:
       run: pyinstaller --onefile manage.py
 
     - name: Upload EXE as artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: manage-exe
         path: dist/manage.exe
